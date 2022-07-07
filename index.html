@@ -1,0 +1,12 @@
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<!-- Use it like any other HTML element -->
+<style>
+    model-viewer {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<model-viewer id="model" src="models/sneaker.glb" ios-src="models/sneaker.usdz" ar ar-modes="webxr scene-viewer quick-look" camera-controls enable-pan></model-viewer>
+<script src="selector.js"></script>
